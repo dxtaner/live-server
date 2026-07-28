@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yayıncı Paneli - StreamPulse</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="dashboard-container">
+      <header class="main-header">
+        <h2>Stream<span>Pulse</span> Panel</h2>
+        <button id="logoutBtn" class="btn btn-outline">Çıkış Yap</button>
+      </header>
+
+      <div class="dashboard-grid">
+        <!-- Sol Kısım: Yayıncı Araçları -->
+        <div class="panel-card">
+          <h3>Yayın Ayarları</h3>
+          <p class="info-text">
+            Yayın başlatmak için OBS programınıza aşağıdaki sunucu URL'sini ve
+            size özel Yayın Anahtarını girin.
+          </p>
+
+          <div class="form-group">
+            <label>RTMP Sunucu URL</label>
+            <input
+              type="text"
+              value="rtmp://localhost:1935/live"
+              readonly
+              onclick="this.select()"
+            />
+          </div>
+
+          <div class="form-group">
+            <label>Yayın Anahtarı (Stream Key)</label>
+            <div class="stream-key-wrapper">
+              <input
+                type="password"
+                id="streamKeyText"
+                value="••••••••••••••••"
+                readonly
+              />
+              <button id="getStreamKey">Göster / Yenile</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sağ Kısım: Canlı Yayın Listesi -->
+        <div class="panel-card">
+          <h3>Canlı Yayınlar</h3>
+          <div id="streams" class="streams-list">
+            <!-- Dinamik olarak app.js tarafından doldurulacak -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/app.js"></script>
+  </body>
+</html>
