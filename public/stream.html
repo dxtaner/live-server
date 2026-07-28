@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Canlı Yayın İzle - StreamPulse</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header class="main-header px-4">
+      <a href="/dashboard.html" class="back-link">← Panele Dön</a>
+      <h3 id="streamTitleDisplay">Canlı Yayın</h3>
+    </header>
+
+    <div class="stream-container">
+      <!-- Video Oynatıcı -->
+      <!-- stream.html içinde video etiketini bul ve muted ekle -->
+      <div class="video-wrapper">
+        <video id="video" controls autoplay playsinline muted></video>
+      </div>
+
+      <!-- Canlı Sohbet -->
+      <div class="chat-wrapper">
+        <div class="chat-header">Canlı Sohbet</div>
+        <div id="messages"></div>
+        <div class="chat-input-area">
+          <input type="text" id="messageInput" placeholder="Mesaj gönder..." />
+          <button id="sendMessage">Gönder</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Eski ccdnjs satırını sil, yerine bunu ekle -->
+    <script src="/flv.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/app.js"></script>
+  </body>
+</html>
