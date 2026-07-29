@@ -232,26 +232,6 @@ Open the Stream page to watch broadcasts with ultra-low latency.
 
 ---
 
-# 📌 Future Improvements
-
-- ✅ JWT Authentication
-- ✅ Stream Recording
-- ✅ Chat System
-- ✅ Stream Scheduling
-- ✅ Viewer Statistics
-- ✅ User Profiles
-- ✅ Stream Thumbnails
-- ✅ Admin Dashboard
-- ✅ Notifications
-- ✅ Multi-Quality Streaming
-- ✅ OBS Auto Configuration
-- ✅ Docker Support
-- ✅ Nginx Reverse Proxy
-- ✅ Kubernetes Deployment
-- ✅ Cloud Storage Integration
-
----
-
 # 📄 License
 
 This project is available under the MIT License.
