@@ -124,7 +124,7 @@ Typical contents include:
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/LIVE-SERVER.git
+git clone https://github.com/dxtaner/live-server
 
 cd LIVE-SERVER
 ```
