@@ -6,6 +6,14 @@ The platform enables users to register, authenticate, broadcast live video, and 
 
 ---
 
+## Screenshots / Preview
+
+![StreamPulse](./StreamPulse.gif)
+
+![StreamPulse 2](./StreamPulse2.gif)
+
+---
+
 # ✨ Features
 
 - 🔐 Secure User Authentication (Register & Login)
