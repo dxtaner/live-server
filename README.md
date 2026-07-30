@@ -132,7 +132,7 @@ Typical contents include:
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/LIVE-SERVER.git
+git clone https://github.com/dxtaner/live-server
 
 cd LIVE-SERVER
 ```
@@ -237,26 +237,6 @@ The RTMP server receives the stream and converts it to HTTP-FLV.
 ### 📺 5. Watch Live
 
 Open the Stream page to watch broadcasts with ultra-low latency.
-
----
-
-# 📌 Future Improvements
-
-- ✅ JWT Authentication
-- ✅ Stream Recording
-- ✅ Chat System
-- ✅ Stream Scheduling
-- ✅ Viewer Statistics
-- ✅ User Profiles
-- ✅ Stream Thumbnails
-- ✅ Admin Dashboard
-- ✅ Notifications
-- ✅ Multi-Quality Streaming
-- ✅ OBS Auto Configuration
-- ✅ Docker Support
-- ✅ Nginx Reverse Proxy
-- ✅ Kubernetes Deployment
-- ✅ Cloud Storage Integration
 
 ---
 
